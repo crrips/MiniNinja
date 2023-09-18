@@ -1,0 +1,866 @@
+Unity Editor version:    2021.3.25f1 (68ef2c4f8861)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 13.6 (Build 22G116)
+Darwin version:          22.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/user/Ninja
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53745
+Successfully changed project path to: /Users/user/Ninja
+/Users/user/Ninja
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [140704735123200] Host "[IP] 10.18.121.40 [Port] 0 [Flags] 2 [Guid] 1318300852 [EditorId] 1318300852 [Version] 1048832 [Id] OSXEditor(0,Crrips-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [140704735123200] Host "[IP] 10.18.121.40 [Port] 0 [Flags] 2 [Guid] 1318300852 [EditorId] 1318300852 [Version] 1048832 [Id] OSXEditor(0,Crrips-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 122.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.25f1 (68ef2c4f8861)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/user/Ninja/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 640 (low power)
+Metal devices available: 1
+0: Intel(R) Iris(TM) Plus Graphics 640 (low power)
+Using device Intel(R) Iris(TM) Plus Graphics 640 (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 640
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56388
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.25f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003204 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 119.11 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.152 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1153ms)
+		BeginReloadAssembly (209ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (796ms)
+			LoadAssemblies (211ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (197ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (480ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (119ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (259ms)
+				ProcessInitializeOnLoadMethodAttributes (90ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.019349 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/user/Ninja/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/user/Ninja/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.611 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1612ms)
+		BeginReloadAssembly (157ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (1296ms)
+			LoadAssemblies (155ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (449ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (81ms)
+			SetupLoadedEditorAssemblies (568ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (99ms)
+				ProcessInitializeOnLoadAttributes (424ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3055 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (85.1 KB). Loaded Objects now: 3519.
+Memory consumption went from 104.7 MB to 104.6 MB.
+Total: 4.108988 ms (FindLiveObjects: 0.342975 ms CreateObjectMapping: 0.200366 ms MarkObjects: 3.439617 ms  DeleteObjects: 0.124983 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 39877.171220 seconds.
+  path: Assets/Laptop/laptop_d.tga
+  artifactKey: Guid(73580c47eab753b47ba9b9680de8f055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laptop/laptop_d.tga using Guid(73580c47eab753b47ba9b9680de8f055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2e91a9f6e9aa185a21d21d6304319b9') in 2.504981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001461 seconds.
+  path: Assets/Laptop/laptop_e.jpg
+  artifactKey: Guid(4eeae465dee0b8a4194a3f390bf49602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laptop/laptop_e.jpg using Guid(4eeae465dee0b8a4194a3f390bf49602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d4a32e67f7601fb97cb5d648110e54d') in 1.430702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Laptop/laptop.prefab
+  artifactKey: Guid(d95dfe9eeea7731489064565a2d8b306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laptop/laptop.prefab using Guid(d95dfe9eeea7731489064565a2d8b306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fec70f6f540e825e36928b468d3499b2') in 2.102312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Laptop/laptop_ao.tga
+  artifactKey: Guid(26156147a2ed42744a03b6f5c1ca0499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laptop/laptop_ao.tga using Guid(26156147a2ed42744a03b6f5c1ca0499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6fbc0cbb2c05135b9b7eae941b44920') in 0.080110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Laptop/laptop_s.tga
+  artifactKey: Guid(356f2bc3a03d6b3448768ab986a926b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laptop/laptop_s.tga using Guid(356f2bc3a03d6b3448768ab986a926b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b3f752942ed111f80ee624e72142bae') in 0.069447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000808 seconds.
+  path: Assets/Laptop/laptop_n.tga
+  artifactKey: Guid(7349e76c837a33e42a61a654719f1045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laptop/laptop_n.tga using Guid(7349e76c837a33e42a61a654719f1045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '518b33a4664ea20934b76a3aaaab5fa5') in 0.187383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Laptop/laptop.mat
+  artifactKey: Guid(54c38eb35b5848443a34928936331d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laptop/laptop.mat using Guid(54c38eb35b5848443a34928936331d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7332b8da959f81e2b7d9877e828f9d04') in 0.543915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001614 seconds.
+  path: Assets/Laptop/laptop_mask.tga
+  artifactKey: Guid(0a5a7b5309c68f14e9fa2c43fadc92fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laptop/laptop_mask.tga using Guid(0a5a7b5309c68f14e9fa2c43fadc92fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b0a388033488845be82ed2f72068b5b') in 0.014485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000596 seconds.
+  path: Assets/Laptop/laptop.FBX
+  artifactKey: Guid(164019ee72ba6df4b934f413f2374e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laptop/laptop.FBX using Guid(164019ee72ba6df4b934f413f2374e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f620a563ed7e2715528c2906aa0a6a5d') in 0.253837 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 61.825018 seconds.
+  path: Assets/Prefabs/Watermelon 1.prefab
+  artifactKey: Guid(b032f4721ce8348628ee86656a53d61d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Watermelon 1.prefab using Guid(b032f4721ce8348628ee86656a53d61d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96a9f45cc35032169ec5f08f4ef7f319') in 0.053275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.028204 seconds.
+  path: Assets/Prefabs/Apple 1.prefab
+  artifactKey: Guid(0075364ce0de143d69e4a9d027298c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Apple 1.prefab using Guid(0075364ce0de143d69e4a9d027298c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6147dcae0cabac90c816422f0f580976') in 0.035872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.729732 seconds.
+  path: Assets/Prefabs/Laptop.prefab
+  artifactKey: Guid(0075364ce0de143d69e4a9d027298c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Laptop.prefab using Guid(0075364ce0de143d69e4a9d027298c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97935d8c4afc627348c74f168d27fed3') in 0.044264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 108.495017 seconds.
+  path: Assets/Prefabs/Laptop.prefab
+  artifactKey: Guid(0075364ce0de143d69e4a9d027298c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Laptop.prefab using Guid(0075364ce0de143d69e4a9d027298c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '353883a188b6395260fbcc91986b2b09') in 0.047630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.521111 seconds.
+  path: Assets/Prefabs/Laptop.prefab
+  artifactKey: Guid(0075364ce0de143d69e4a9d027298c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Laptop.prefab using Guid(0075364ce0de143d69e4a9d027298c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c189e24e244a9d5da4e3cd7876be383') in 0.033346 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.211136 seconds.
+  path: Assets/Prefabs/Laptop.prefab
+  artifactKey: Guid(0075364ce0de143d69e4a9d027298c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Laptop.prefab using Guid(0075364ce0de143d69e4a9d027298c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '131f8f139bcdf49bbe282a577f7791e0') in 0.036589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.592754 seconds.
+  path: Assets/Materials/BombWick.mat
+  artifactKey: Guid(715063a592d504c94aaf6402b9fe72dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/BombWick.mat using Guid(715063a592d504c94aaf6402b9fe72dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b808e8d8d258abbd4cd298ac9adc5ad') in 0.028142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.783495 seconds.
+  path: Assets/Prefabs/laptop 1.prefab
+  artifactKey: Guid(06b4bd6e5b29d448b8c8c4ddb0cfd57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/laptop 1.prefab using Guid(06b4bd6e5b29d448b8c8c4ddb0cfd57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3887f017ed5f714218f63f46d9907f06') in 0.503306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.345285 seconds.
+  path: Assets/Prefabs/Laptop.prefab
+  artifactKey: Guid(0075364ce0de143d69e4a9d027298c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Laptop.prefab using Guid(0075364ce0de143d69e4a9d027298c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e710cc82021a1b84dd2758263492c03') in 0.585520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.869874 seconds.
+  path: Assets/Prefabs/Laptop.prefab
+  artifactKey: Guid(0075364ce0de143d69e4a9d027298c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Laptop.prefab using Guid(0075364ce0de143d69e4a9d027298c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89a37366db4d50ebd52936d5b40d6fd5') in 0.223560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.685031 seconds.
+  path: Assets/Prefabs/laptop 1.prefab
+  artifactKey: Guid(06b4bd6e5b29d448b8c8c4ddb0cfd57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/laptop 1.prefab using Guid(06b4bd6e5b29d448b8c8c4ddb0cfd57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd96b714f8ddf7a2f2b1845cf495f6062') in 0.267235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Prefabs/Laptop.prefab
+  artifactKey: Guid(0075364ce0de143d69e4a9d027298c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Laptop.prefab using Guid(0075364ce0de143d69e4a9d027298c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '330f15e568e9546f67cc2c7ef6cc0306') in 0.140493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.605324 seconds.
+  path: Assets/Prefabs/laptop 1.prefab
+  artifactKey: Guid(06b4bd6e5b29d448b8c8c4ddb0cfd57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/laptop 1.prefab using Guid(06b4bd6e5b29d448b8c8c4ddb0cfd57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36121a6284224da24198590bc014cced') in 0.178949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001190 seconds.
+  path: Assets/Prefabs/Laptop.prefab
+  artifactKey: Guid(0075364ce0de143d69e4a9d027298c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Laptop.prefab using Guid(0075364ce0de143d69e4a9d027298c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c07989d713dcd3aeae11c4a9c5f7e6f') in 0.177659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.121732 seconds.
+  path: Assets/Prefabs/laptop 1.prefab
+  artifactKey: Guid(06b4bd6e5b29d448b8c8c4ddb0cfd57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/laptop 1.prefab using Guid(06b4bd6e5b29d448b8c8c4ddb0cfd57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e71d233d18b18dec67f1a933f99c5f7') in 0.235988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Prefabs/Laptop.prefab
+  artifactKey: Guid(0075364ce0de143d69e4a9d027298c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Laptop.prefab using Guid(0075364ce0de143d69e4a9d027298c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a821099f0f43c28cfbeda3e47a45bb9b') in 0.209821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.118805 seconds.
+  path: Assets/Prefabs/Laptop.prefab
+  artifactKey: Guid(0075364ce0de143d69e4a9d027298c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Laptop.prefab using Guid(0075364ce0de143d69e4a9d027298c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed945c26a94601ad219679e34b6106af') in 0.355839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.690785 seconds.
+  path: Assets/Prefabs/Fruit_Base 1.prefab
+  artifactKey: Guid(8851e0dad3eac456586090a07ff0d918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Fruit_Base 1.prefab using Guid(8851e0dad3eac456586090a07ff0d918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '526a89713543514bfeedb3c5b7b5a2a2') in 0.018953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.819354 seconds.
+  path: Assets/Prefabs/Fruit_Base 1.prefab
+  artifactKey: Guid(8851e0dad3eac456586090a07ff0d918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Fruit_Base 1.prefab using Guid(8851e0dad3eac456586090a07ff0d918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b369f08cad8a456e7855e9029b4d1db') in 0.189463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.115728 seconds.
+  path: Assets/Prefabs/Laptop.prefab
+  artifactKey: Guid(8851e0dad3eac456586090a07ff0d918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Laptop.prefab using Guid(8851e0dad3eac456586090a07ff0d918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e6e7a5ee5c83fd7ed82b326371e2705') in 0.323436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.140738 seconds.
+  path: Assets/Prefabs/laptop.prefab
+  artifactKey: Guid(06b4bd6e5b29d448b8c8c4ddb0cfd57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/laptop.prefab using Guid(06b4bd6e5b29d448b8c8c4ddb0cfd57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ce77608cdd769dc85a27437995c61ff') in 0.192757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 55.196507 seconds.
+  path: Assets/Prefabs/Fruit_Base 1.prefab
+  artifactKey: Guid(43c4b89bf298f453ebc13448365453f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Fruit_Base 1.prefab using Guid(43c4b89bf298f453ebc13448365453f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73df05ba44d88caf34130cbb384cf0c5') in 0.023518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.415746 seconds.
+  path: Assets/Prefabs/laptop.prefab
+  artifactKey: Guid(06b4bd6e5b29d448b8c8c4ddb0cfd57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/laptop.prefab using Guid(06b4bd6e5b29d448b8c8c4ddb0cfd57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a76718746eff709778b0ddef9bef0085') in 0.282091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 118.498331 seconds.
+  path: Assets/Prefabs/laptop.prefab
+  artifactKey: Guid(06b4bd6e5b29d448b8c8c4ddb0cfd57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/laptop.prefab using Guid(06b4bd6e5b29d448b8c8c4ddb0cfd57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7a4fb4b6876f5d043c6f7758254fb89') in 0.409121 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.640390 seconds.
+  path: Assets/Prefabs/laptop.prefab
+  artifactKey: Guid(06b4bd6e5b29d448b8c8c4ddb0cfd57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/laptop.prefab using Guid(06b4bd6e5b29d448b8c8c4ddb0cfd57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9107056525bdc34c764db8873b6d37f8') in 0.278027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.972544 seconds.
+  path: Assets/Prefabs/laptop.prefab
+  artifactKey: Guid(06b4bd6e5b29d448b8c8c4ddb0cfd57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/laptop.prefab using Guid(06b4bd6e5b29d448b8c8c4ddb0cfd57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c29bd0964cddb81ff54ee39fb75aa811') in 0.179641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.774322 seconds.
+  path: Assets/Models/laptop.prefab
+  artifactKey: Guid(eac094c21383547d094e0ef2fcf1f07a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/laptop.prefab using Guid(eac094c21383547d094e0ef2fcf1f07a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a2cf26d1ccd1bb64c3c774ecedeac63') in 0.198899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.449231 seconds.
+  path: Assets/Models/laptop 1.prefab
+  artifactKey: Guid(033813fc639164dc4b211b8018423a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/laptop 1.prefab using Guid(033813fc639164dc4b211b8018423a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9acce27e679e611001e6a721dc181e8f') in 0.165050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.197776 seconds.
+  path: Assets/Models/laptop_whole.prefab
+  artifactKey: Guid(033813fc639164dc4b211b8018423a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/laptop_whole.prefab using Guid(033813fc639164dc4b211b8018423a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c8867567ff71e153c3ee147c46ebd03') in 0.158104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.029139 seconds.
+  path: Assets/Models/laptop_slice.prefab
+  artifactKey: Guid(eac094c21383547d094e0ef2fcf1f07a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/laptop_slice.prefab using Guid(eac094c21383547d094e0ef2fcf1f07a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3072238b0d300bc66b337ec89fa39e93') in 0.149293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.550627 seconds.
+  path: Assets/Models/laptop_sliced.prefab
+  artifactKey: Guid(eac094c21383547d094e0ef2fcf1f07a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/laptop_sliced.prefab using Guid(eac094c21383547d094e0ef2fcf1f07a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75e48a22063755593638bf6b2b917b30') in 0.162740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.707389 seconds.
+  path: Assets/Models/laptop_sliced.prefab
+  artifactKey: Guid(eac094c21383547d094e0ef2fcf1f07a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/laptop_sliced.prefab using Guid(eac094c21383547d094e0ef2fcf1f07a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87fce25ccf74f4af6cda73203ffe8220') in 0.159779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.253613 seconds.
+  path: Assets/Models/laptop_sliced.prefab
+  artifactKey: Guid(eac094c21383547d094e0ef2fcf1f07a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/laptop_sliced.prefab using Guid(eac094c21383547d094e0ef2fcf1f07a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05ac39c4e1d80c175cb17d38ac924cfa') in 0.158905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.122841 seconds.
+  path: Assets/Models/laptop_sliced.prefab
+  artifactKey: Guid(eac094c21383547d094e0ef2fcf1f07a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/laptop_sliced.prefab using Guid(eac094c21383547d094e0ef2fcf1f07a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '023fef9d614329983131937943327354') in 0.166819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.600456 seconds.
+  path: Assets/Models/laptop_whole.prefab
+  artifactKey: Guid(033813fc639164dc4b211b8018423a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/laptop_whole.prefab using Guid(033813fc639164dc4b211b8018423a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6573d41eeeca9519fe9986fe9d70a65a') in 0.156911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.166619 seconds.
+  path: Assets/Prefabs/Fruit_Base 1.prefab
+  artifactKey: Guid(43c4b89bf298f453ebc13448365453f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Fruit_Base 1.prefab using Guid(43c4b89bf298f453ebc13448365453f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8908885f732aa51bebecf02401f1257') in 0.166755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.095122 seconds.
+  path: Assets/Prefabs/Fruit_Base 1.prefab
+  artifactKey: Guid(43c4b89bf298f453ebc13448365453f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Fruit_Base 1.prefab using Guid(43c4b89bf298f453ebc13448365453f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '502aa9c3f5e431db7a361988844c0989') in 0.159135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 117.542586 seconds.
+  path: Assets/Prefabs/Fruit_Base 1.prefab
+  artifactKey: Guid(43c4b89bf298f453ebc13448365453f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Fruit_Base 1.prefab using Guid(43c4b89bf298f453ebc13448365453f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf3976383fd61c12d1a840c28f1b2bd7') in 0.144666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.911483 seconds.
+  path: Assets/Prefabs/laptop.prefab
+  artifactKey: Guid(43c4b89bf298f453ebc13448365453f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/laptop.prefab using Guid(43c4b89bf298f453ebc13448365453f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1833e5aba16a25be66bfd34b8b14588a') in 0.262430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.740260 seconds.
+  path: Assets/Prefabs/Laptop.prefab
+  artifactKey: Guid(43c4b89bf298f453ebc13448365453f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Laptop.prefab using Guid(43c4b89bf298f453ebc13448365453f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0385463e446b5c9d67e38fa57529ccad') in 0.223791 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004150 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/user/Ninja/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/user/Ninja/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.559 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3560ms)
+		BeginReloadAssembly (440ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (18ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (193ms)
+		EndReloadAssembly (2858ms)
+			LoadAssemblies (210ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (999ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (174ms)
+			SetupLoadedEditorAssemblies (1295ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (181ms)
+				ProcessInitializeOnLoadAttributes (986ms)
+				ProcessInitializeOnLoadMethodAttributes (95ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3049 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (64.7 KB). Loaded Objects now: 3571.
+Memory consumption went from 127.9 MB to 127.8 MB.
+Total: 5.595223 ms (FindLiveObjects: 0.313324 ms CreateObjectMapping: 0.219414 ms MarkObjects: 4.875915 ms  DeleteObjects: 0.185122 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 91.023517 seconds.
+  path: Assets/Prefabs/Laptop.prefab
+  artifactKey: Guid(43c4b89bf298f453ebc13448365453f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Laptop.prefab using Guid(43c4b89bf298f453ebc13448365453f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23e755f4c41cda7a309aed386fcf2a62') in 0.764119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.280676 seconds.
+  path: Assets/Prefabs/Laptop.prefab
+  artifactKey: Guid(43c4b89bf298f453ebc13448365453f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Laptop.prefab using Guid(43c4b89bf298f453ebc13448365453f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60a66f98fa87a9416992a273ac46cabf') in 0.256137 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007692 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/user/Ninja/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/user/Ninja/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 8.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.067 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4069ms)
+		BeginReloadAssembly (383ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (16ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (164ms)
+		EndReloadAssembly (3411ms)
+			LoadAssemblies (229ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1237ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (149ms)
+			SetupLoadedEditorAssemblies (1582ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (8ms)
+				BeforeProcessingInitializeOnLoad (241ms)
+				ProcessInitializeOnLoadAttributes (1208ms)
+				ProcessInitializeOnLoadMethodAttributes (95ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3049 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (64.7 KB). Loaded Objects now: 3574.
+Memory consumption went from 127.9 MB to 127.9 MB.
+Total: 11.117218 ms (FindLiveObjects: 0.973457 ms CreateObjectMapping: 1.686515 ms MarkObjects: 8.273671 ms  DeleteObjects: 0.180951 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 44.120705 seconds.
+  path: Assets/Models/laptop_sliced.prefab
+  artifactKey: Guid(eac094c21383547d094e0ef2fcf1f07a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/laptop_sliced.prefab using Guid(eac094c21383547d094e0ef2fcf1f07a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '040954a011e394de40e910051d091c10') in 0.392592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.327916 seconds.
+  path: Assets/Models/laptop_sliced.prefab
+  artifactKey: Guid(eac094c21383547d094e0ef2fcf1f07a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/laptop_sliced.prefab using Guid(eac094c21383547d094e0ef2fcf1f07a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7db57c8b46fee4a28326a2b5e75dfe53') in 0.299330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000677 seconds.
+  path: Assets/Models/laptop_whole.prefab
+  artifactKey: Guid(033813fc639164dc4b211b8018423a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/laptop_whole.prefab using Guid(033813fc639164dc4b211b8018423a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8c42b2ddd01ea45aa8664262525750d') in 0.139616 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 35.159811 seconds.
+  path: Assets/Models/laptop_sliced.prefab
+  artifactKey: Guid(eac094c21383547d094e0ef2fcf1f07a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/laptop_sliced.prefab using Guid(eac094c21383547d094e0ef2fcf1f07a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '273772df8eb618115e97f70443571514') in 0.421060 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004870 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/user/Ninja/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/user/Ninja/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.264 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3266ms)
+		BeginReloadAssembly (298ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (130ms)
+		EndReloadAssembly (2728ms)
+			LoadAssemblies (166ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (929ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (153ms)
+			SetupLoadedEditorAssemblies (1290ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (170ms)
+				ProcessInitializeOnLoadAttributes (1006ms)
+				ProcessInitializeOnLoadMethodAttributes (91ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3049 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (64.7 KB). Loaded Objects now: 3577.
+Memory consumption went from 127.9 MB to 127.9 MB.
+Total: 7.963291 ms (FindLiveObjects: 0.462173 ms CreateObjectMapping: 0.417254 ms MarkObjects: 6.752899 ms  DeleteObjects: 0.327692 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 39.466944 seconds.
+  path: Assets/Models/laptop_whole.prefab
+  artifactKey: Guid(033813fc639164dc4b211b8018423a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/laptop_whole.prefab using Guid(033813fc639164dc4b211b8018423a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41aaf8d3bb695be0ede2f928bdd6ade5') in 0.327131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.207160 seconds.
+  path: Assets/Models/laptop_whole.prefab
+  artifactKey: Guid(033813fc639164dc4b211b8018423a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/laptop_whole.prefab using Guid(033813fc639164dc4b211b8018423a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e623a78f88a2918cc7fb08924ce6fc0') in 0.317751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.703147 seconds.
+  path: Assets/Models/laptop_whole.prefab
+  artifactKey: Guid(033813fc639164dc4b211b8018423a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/laptop_whole.prefab using Guid(033813fc639164dc4b211b8018423a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16c30a4ed9a8cbea16defe862af6b6d5') in 0.148019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.311535 seconds.
+  path: Assets/Models/laptop_sliced.prefab
+  artifactKey: Guid(eac094c21383547d094e0ef2fcf1f07a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/laptop_sliced.prefab using Guid(eac094c21383547d094e0ef2fcf1f07a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f79414014ad97dedae765f02eff97c04') in 0.165238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.483352 seconds.
+  path: Assets/Prefabs/Laptop.prefab
+  artifactKey: Guid(43c4b89bf298f453ebc13448365453f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Laptop.prefab using Guid(43c4b89bf298f453ebc13448365453f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1569d7ce543c0e1234d6220af4a3c3b') in 0.343888 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005717 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/user/Ninja/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/user/Ninja/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.119 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3120ms)
+		BeginReloadAssembly (278ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (117ms)
+		EndReloadAssembly (2640ms)
+			LoadAssemblies (175ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (877ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (144ms)
+			SetupLoadedEditorAssemblies (1231ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (158ms)
+				ProcessInitializeOnLoadAttributes (963ms)
+				ProcessInitializeOnLoadMethodAttributes (78ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (26ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.22 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3049 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (64.7 KB). Loaded Objects now: 3580.
+Memory consumption went from 127.9 MB to 127.9 MB.
+Total: 11.503043 ms (FindLiveObjects: 0.830986 ms CreateObjectMapping: 0.368260 ms MarkObjects: 9.763025 ms  DeleteObjects: 0.535002 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 499.747355 seconds.
+  path: Assets/Models/laptop_whole.prefab
+  artifactKey: Guid(033813fc639164dc4b211b8018423a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/laptop_whole.prefab using Guid(033813fc639164dc4b211b8018423a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5589ef08f5c5eec54aa02081e13eb0c') in 0.422648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.195183 seconds.
+  path: Assets/Models/laptop_sliced.prefab
+  artifactKey: Guid(eac094c21383547d094e0ef2fcf1f07a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/laptop_sliced.prefab using Guid(eac094c21383547d094e0ef2fcf1f07a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caf2192277cc17f8eedac4ad90c78dd8') in 0.188765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Models/laptop_whole.prefab
+  artifactKey: Guid(033813fc639164dc4b211b8018423a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/laptop_whole.prefab using Guid(033813fc639164dc4b211b8018423a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aacc54da55d3466f84bccdac0804f2b5') in 0.162004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.702269 seconds.
+  path: Assets/Models/laptop_sliced.prefab
+  artifactKey: Guid(eac094c21383547d094e0ef2fcf1f07a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/laptop_sliced.prefab using Guid(eac094c21383547d094e0ef2fcf1f07a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4858a6996ef8d17a2dcb139f3cf5466') in 0.444414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.884003 seconds.
+  path: Assets/Prefabs/Laptop.prefab
+  artifactKey: Guid(43c4b89bf298f453ebc13448365453f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Laptop.prefab using Guid(43c4b89bf298f453ebc13448365453f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98841c8499073cdca2738d6483f2b65f') in 0.115956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.694205 seconds.
+  path: Assets/Prefabs/Laptop.prefab
+  artifactKey: Guid(43c4b89bf298f453ebc13448365453f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Laptop.prefab using Guid(43c4b89bf298f453ebc13448365453f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ed488b865af0639009cd9109401cb27') in 0.150172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.461504 seconds.
+  path: Assets/Prefabs/Laptop.prefab
+  artifactKey: Guid(43c4b89bf298f453ebc13448365453f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Laptop.prefab using Guid(43c4b89bf298f453ebc13448365453f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '428483ff55d6f1be8398abf204f622ee') in 0.159358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.283514 seconds.
+  path: Assets/Prefabs/Laptop.prefab
+  artifactKey: Guid(43c4b89bf298f453ebc13448365453f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Laptop.prefab using Guid(43c4b89bf298f453ebc13448365453f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab408f0dc74bf46a0406a24ea6f43b2a') in 0.193003 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004003 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/user/Ninja/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/user/Ninja/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.392 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3395ms)
+		BeginReloadAssembly (290ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (102ms)
+		EndReloadAssembly (2843ms)
+			LoadAssemblies (186ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (942ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (166ms)
+			SetupLoadedEditorAssemblies (1348ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (171ms)
+				ProcessInitializeOnLoadAttributes (1021ms)
+				ProcessInitializeOnLoadMethodAttributes (132ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 10.15 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3049 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (64.8 KB). Loaded Objects now: 3583.
+Memory consumption went from 128.0 MB to 127.9 MB.
+Total: 10.642398 ms (FindLiveObjects: 0.951732 ms CreateObjectMapping: 0.385587 ms MarkObjects: 8.632059 ms  DeleteObjects: 0.669443 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
