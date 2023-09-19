@@ -2,6 +2,7 @@
 
 This project is a simplified version of the popular mobile game "Fruit Ninja". The goal of the game is to slice fruits that appear on the screen using a virtual sword or blade. The game keeps track of the player's score based on the number of fruits sliced.
 
+![Alt text](https://github.com/crrips/MiniNinja/blob/main/Screenshots/gameplay_1.png)
 ## Features
 
 - Random generation of fruits (e.g., watermelon, apple, banana) on the screen.
@@ -9,6 +10,7 @@ This project is a simplified version of the popular mobile game "Fruit Ninja". T
 - Score tracking based on successful fruit slices.
 - Game over conditions (e.g., missing fruits, hitting bombs).
 
+![Alt text](https://github.com/crrips/MiniNinja/blob/main/Screenshots/gameplay_2.png)
 ## Gameplay
 
 1. Fruits appear on the screen at random positions.
@@ -17,6 +19,7 @@ This project is a simplified version of the popular mobile game "Fruit Ninja". T
 4. Missing a fruit or hitting a bomb reduces the player's score.
 5. The game ends when the player reaches a certain score or misses too many fruits.
 
+![Alt text](https://github.com/crrips/MiniNinja/blob/main/Screenshots/gameplay_3.png)
 ## Controls
 
 - Mouse swipe or click: Slice fruits with the virtual blade.
@@ -35,5 +38,3 @@ The code is organized to handle the following main components:
 - **Blade**: Creation of a virtual blade controlled by the player's input.
 - **Score Management**: Tracking and updating the player's score based on successful fruit slices.
 - **Game Over Conditions**: Checking for game over conditions (e.g., missing fruits, hitting bombs).
-- 
-## Screenshots
